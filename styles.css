@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+body{
+    background-color:rgba(51, 2, 10, 0.816);
+    color:whitesmoke;
+}
+.header{
+    background-color:rgba(27, 1, 6, 0.897) ;
+    background:linear-gradient(90deg,#1A0228,#840034, #cc7b2a,#D41425,#840034,#1A0228);
+    top:0;
+    left:0;
+    width:100vw;
+    height:130px ;
+}
+.nav-link{
+    display:flex;
+    justify-content: space-around;
+    width:300px;
+    margin-top: 20px;
+    margin-right:50px;
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#welcome-section{
+     height:100vh;
+     background-color:rgba(255, 255, 0, 0.579);
+     text-align:center;
+     padding-top:30vh;
+}
+#projects{
+    height:100vh;
+    background-color:#8A0133 ;
+}
+
