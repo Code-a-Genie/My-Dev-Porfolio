@@ -1,14 +1,16 @@
 *{
     box-sizing: border-box;
     margin:0px;
+    padding:0px;
 }
 body{
     background-color:rgba(51, 2, 10, 0.816);
     color:whitesmoke;
 }
 .header{
-    background-color:rgba(27, 1, 6, 0.897) ;
-    background:linear-gradient(90deg,#1A0228,#840034, #cc7b2a,#D41425,#840034,#1A0228);
+    /* background-color:rgba(27, 1, 6, 0.897) ;
+    background:linear-gradient(90deg,#1A0228,#840034, #cc7b2a,#D41425,#840034,#1A0228); */
+    background-color: #0E1925;
     top:0;
     left:0;
     width:100vw;
@@ -29,12 +31,49 @@ body{
 
 #welcome-section{
      height:100vh;
-     background-color:rgba(255, 255, 0, 0.579);
+     background-color:#1C334A;
+     
      text-align:center;
      padding-top:30vh;
 }
+#welcome-section div{
+    border:4px solid#0E1925;
+    height:200px;
+    width:400px;
+    margin:auto;
+    
+}
 #projects{
     height:100vh;
-    background-color:#8A0133 ;
+    background-color:#0E1925 ;
+    padding:20px;
+}
+#projects h1{
+    text-align: center;
+    padding:30px 0px;;
+    
+}
+.each-project{
+    display:flex;
+    gap:1rem;
+    flex-wrap: wrap;
+   
+
+}
+.project-tile{
+    width:300px;
+    height:300px;
+    border:4px solid #1C334A;
+    justify-content: space-around;
+    margin:auto;
+
+}
+.display-image{
+    width:292px;
+}
+
+#contact{
+    height:150px;
+
 }
 
